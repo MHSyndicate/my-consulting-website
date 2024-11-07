@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Digital Health Consulting</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background-color: #00468B; color: white; padding: 15px 20px; text-align: center; }
+        nav { margin: 20px 0; text-align: center; }
+        nav a { margin: 0 15px; text-decoration: none; color: #00468B; font-weight: bold; }
+        .container { padding: 20px; max-width: 800px; margin: auto; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Digital Health Consulting</h1>
+        <p>Transforming Healthcare through Strategy & Innovation</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Greg Shannon has over 15 years of experience in healthcare strategy, product launches, and executive consulting. With an MBA from Stanford and extensive leadership roles, he brings unparalleled expertise to digital health transformation.</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Strategic Partnerships Consulting</li>
+                <li>Product Strategy and Digital Innovation</li>
+                <li>Performance Evaluation and Data Analytics</li>
+                <li>Executive Coaching for Healthcare Leadership</li>
+            </ul>
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <p>“Greg's guidance was invaluable in streamlining our operations and enhancing patient outcomes.” - Healthcare Client</p>
+            <p>“A leader in digital transformation and an exceptional strategic partner.” - Business Partner</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: info@yourconsultingdomain.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Digital Health Consulting. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
